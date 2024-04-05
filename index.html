@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--==================== EMAIL SERVICE ====================-->
+        <!-- Sweet Alert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Email.JS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init('gF3M_-jS8KuvoCpV4');
+            })();
+        </script>
+
+        <!--==================== CALENDAR SERVICE ====================-->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+        <!--==================== TITLE and Favicon ====================-->
+        <title>Angel Miguel Alvarez Calicho Portfolio 👋</title>
+        <!-- <link rel="shortcut icon" type="image/png" href="assets/img/"> --> 
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+        <!-- <link rel="manifest" href="/site.webmanifest"> --> 
+
+        <!-- HTML Meta Tags -->
+        <title>Angel Miguel Alvarez Calicho Portfolio 👋</title>
+        <meta name="description" content="Ingerniero Comercial de la Universidad Mayor de San Simón, apasinado por el análisis de datos, la investigación de mercados y herramientas digitales.">
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://thereisnodata.github.io/Curriculum/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Angel Miguel Alvarez Calicho Portfolio 👋">
+        <meta property="og:description" content="Ingerniero Comercial de la Universidad Mayor de San Simón, apasinado por el análisis de datos, la investigación de mercados y herramientas digitales.">
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P1HX9B9KDW"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-P1HX9B9KDW');
+        </script>
+
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Angel Miguel Alvarez Calicho</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> Sobre Mí
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Habilidades
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Projectos
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contacto
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme Change Buttons -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home" data-id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/angel-miguel-alvarez-calicho/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://www.researchgate.net/profile/Angel-Alvarez-Calicho" target="_blank" class="home__social-icon">
+                                <i class="uil uil-book-open"></i>
+                            </a>
+                            <a href="https://github.com/thereisnodata" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                    <image class="home__blob-img" x='12' y='18' xlink:href="assets/img/perfil.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hola, me llamo Miguel.</h1>
+                            <h3 class="home__subtitle">Ingeniero Comercial</h3>
+                            <p class="home__description">Recién graduado en Ingeniería Comercial, tengo experiencia en análisis de datos cuantitativos para investigación, edición en la Revista Científicas, gestión de sitios web y enseñanza de cursos de informática.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contáctame <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Abajo</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about" data-id="about">
+                <h2 class="section__title">Sobre Mí</h2>
+                <span class="section__subtitle">Introducción</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/about.png" alt="Mi lugar de trabajo actual" class="about__img">
+
+
+                    <div class="about__data">
+                        <p class="about__description">Soy Ingeniero Comercial apasionado por el análisis de datos y la investigación de mercados. Me gusta abordar desafíos complejos y aplicar mis habilidades en Business Intelligence para ayudar a las empresas a tomar decisiones informadas. Me mantengo actualizado en mi campo y soy comprometido en la búsqueda de mis objetivos profesionales.</p>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">02+</span>
+                                <span class="about__info-name">Años de' <br> Experiencia Auxiliar de Investigación</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">05+</span>
+                                <span class="about__info-name">Cursos' <br> Impartidos</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/CV 2024.pdf" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills" data-id="skills">
+                <h2 class="section__title">Habilidades</h2>
+                <span class="section__subtitle">Competencia Técnica</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Estadística y Análisis de Datos</h1>
+                                    <!-- <span class="skills__subtitle">More than 8 years</span> -->
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Estadística</h3>
+                                        <span class="skills__number">Avanzado</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SNAP</h3>
+                                        <span class="skills__number">Advanced</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div> -->
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SPSS</h3>
+                                        <span class="skills__number">Avanzado</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Eviews</h3>
+                                        <span class="skills__number">Básico</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__20"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Stata</h3>
+                                        <span class="skills__number">Intermedio</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__60"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">R</h3>
+                                        <span class="skills__number">Intermedio</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__60"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">Intermedio</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__60"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Atlas.ti</h3>
+                                        <span class="skills__number">Intermedio</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__60"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Georeferenciación [ArcGIS y QGIS]</h3>
+                                        <span class="skills__number">Intermedio</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__60"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-vector-square skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Marketing Digital y Herramientas Web</h1>
+                                    <!-- <span class="skills__subtitle">More than 2 years</span> -->
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Marketing Digital, SEO y SEM</h3>
+                                        <span class="skills__number">Intermedio</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__60"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Programación Básica</h3>
+                                        <span class="skills__number">Básico</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__20"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">GitHub</h3>
+                                        <span class="skills__number">Básico</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__20"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Wordpress</h3>
+                                        <span class="skills__number">Intermedio</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__60"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe Illustrator</h3>
+                                        <span class="skills__number">Intermedio</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__60"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Adobe Photoshop </h3>
+                                        <span class="skills__number">Básico</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__20"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>                        
+                    </div>
+
+                    <div>
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-arrow skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Visualización de Datos</h1>
+                                    <!-- <span class="skills__subtitle">More than 2 years</span> -->
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Power BI </h3>
+                                        <span class="skills__number">Intermedio</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__60"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Tableau</h3>
+                                        <span class="skills__number">Básico</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__20"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Looker</h3>
+                                        <span class="skills__number">Básico</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__20"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+
+                        <!--==================== SKILLS 4 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-code-branch skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Ofimática y Software de Diseño </h1>
+                                    <!-- <span class="skills__subtitle">More than 2 years</span> -->
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Moodle</h3>
+                                        <span class="skills__number">Intermedio</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__60"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Excel</h3>
+                                        <span class="skills__number">Avanzado</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__100"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Power Point</h3>
+                                        <span class="skills__number">Avanzado</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__100"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Word</h3>
+                                        <span class="skills__number">Avanzado</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__100"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Access</h3>
+                                        <span class="skills__number">Intermedio</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__60"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+
+                    </div> 
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Cualificaciones</h2>
+                <span class="section__subtitle">Carrera Académica y Profesional</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Educación
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Trabajo
+                        </div>
+                    </div>
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                             <!--==================== QUALIFICATION  1 ====================-->
+                             <div class="qualification__data">
+                                <div>
+                                    <span class="qualification__degree">Licenciatura</span>
+                                    <h3 class="qualification__tittle">Ingenieria Comercial</h3>
+                                    <span class="qualification__subtitle">Universidad Mayor de San Simón - Facultad de Ciencias Económicas</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019 - 2023
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                             <!--==================== QUALIFICATION  2 ====================-->
+                             <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__degree">Diplomado</span>
+                                    <h3 class="qualification__tittle">Estadística Aplicada a las Finanzas</h3>
+                                    <span class="qualification__subtitle">Posgrado de la Facultad de Ciencias Económicas</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023 - Actualmente
+                                    </div>
+                                </div>
+
+                            </div>
+
+                             <!--==================== QUALIFICATION  3 ====================-->
+                             <div class="qualification__data">
+                                <div>
+                                    <span class="qualification__degree">Maestría</span>
+                                    <h3 class="qualification__tittle">Estadística Aplicada a la Gestión Empresarial</h3>
+                                    <span class="qualification__subtitle">Posgrado de la Facultad de Ciencias Económicas</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023 - Actualmente
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                            </div>
+
+                             <!--==================== QUALIFICATION  4 ====================-->
+                             <div class="qualification__data">
+                                <!-- <div></div> -->
+
+                                <!-- <div>
+                                    <span class="qualification__rounder"></span> -->
+                                    <!-- <span class="qualification__line"></span> -->
+                                <!-- </div> -->
+
+                                <!-- <div>
+                                    <h3 class="qualification__tittle">Nuclear Engineer</h3>
+                                    <span class="qualification__subtitle">Hacettepe University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2008 - 2013
+                                    </div>
+                                </div> -->
+
+
+                                
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION  1 ====================-->
+                            <div class="qualification__data">
+                               <div>
+                                   <h3 class="qualification__tittle">Instructo de Cursos de informática</h3>
+                                   <span class="qualification__subtitle">Facultad de Ciencias Económicas</span>
+                                   <div class="qualification__calendar">
+                                       <i class="uil uil-calendar-alt"></i>
+                                       2021 - 2023
+                                   </div>
+                               </div>
+                               <div>
+                                   <span class="qualification__rounder"></span>
+                                   <span class="qualification__line"></span>
+                               </div>
+                           </div>
+
+                            <!--==================== QUALIFICATION  2 ====================-->
+                            <div class="qualification__data">
+                               <div></div>
+                               <div>
+                                   <span class="qualification__rounder"></span>
+                                   <span class="qualification__line"></span>
+                               </div>
+
+                               <div>
+                                   <h3 class="qualification__tittle">Auxiliar de Investigación</h3>
+                                   <span class="qualification__subtitle">Instituto de Estudios Sociales y Económicos</span>
+                                   <div class="qualification__calendar">
+                                       <i class="uil uil-calendar-alt"></i>
+                                       2022 - 2023
+                                   </div>
+                               </div>
+
+                           </div>
+
+                            <!--==================== QUALIFICATION  3 ====================-->
+                            <div class="qualification__data">
+                               <div>
+                                   <h3 class="qualification__tittle">Auxiliar de Investigación</h3>
+                                   <span class="qualification__subtitle">Instituto de Estudios Sociales y Económicos</span>
+                                   <div class="qualification__calendar">
+                                       <i class="uil uil-calendar-alt"></i>
+                                       2023 - 2024
+                                   </div>
+                               </div>
+                               <div>
+                                   <span class="qualification__rounder"></span>
+                                   <span class="qualification__line"></span>
+                               </div>
+                           </div>
+
+                            <!--==================== QUALIFICATION  4 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+ 
+                                <div>
+                                    <h3 class="qualification__tittle">Pasantía de Asistente de Datos</h3>
+                                    <span class="qualification__subtitle">Laboratorio de Tecnologías Sociales</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2024 - Actualmente
+                                    </div>
+                                </div>
+ 
+                            </div>
+
+                       </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PROJECTS ====================-->
+            <section class="projects section" id="projects" data-id="projects">
+                <h2 class="section__title">Projectos</h2>
+                <span class="section__subtitle">Proyectos Involucrados y en Desarrollo</span>
+
+                <div class="projects__container container grid">
+                    <!--==================== PROJECTS 1 ====================-->
+                    <div class="projects__content">
+                        <div>
+                            <i class="uil uil-swatchbook projects__icon"></i>
+                            <h3 class="projects__title">Diseño y<br>creación de<br>Contenidos</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link projects__button">
+                            Ver Más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">Actualmente no he creado una galeria como tal para el repositorio, pero mucho de mis diseños estan en los diversos proyectos siguientes, así como un poco en la siguiente página: </h4>
+                                <i class="uil uil-times projects__modal-close"></i>
+
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                        <p> <a href="https://bento.me/miguelalvarez" target="_blank">Repositorio Bento</a></p>
+                                    </li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!--==================== PROJECTS 2 ====================-->
+                    <div class="projects__content">
+                        <div>
+                            <i class="uil uil-swatchbook projects__icon"></i>
+                            <h3 class="projects__title">Visualización<br>de Datos<br>con PowerBI</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link projects__button">
+                            Ver Más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">Proyectos con el programa de PowerBI:</h4>
+                                <i class="uil uil-times projects__modal-close"></i>
+
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                        <p><a href="https://app.powerbi.com/view?r=eyJrIjoiMDk5NGYwODUtYjYyMy00NDNhLWI0MGYtMTM0ZDVhZDQzZjZlIiwidCI6ImY2MmYxZGMxLTUxYTYtNGFmZi05ZmQ2LTc4ZGQ3MjkyZjEzNSJ9" target="_blank">Evolución del Sistema de Pagos en Bolivia</a></p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                        <p><a href="https://app.powerbi.com/view?r=eyJrIjoiMmY2YTRjZDQtZmY3NC00OWM3LTg3YjYtNzY3ZTQ5MDMxODkwIiwidCI6ImY2MmYxZGMxLTUxYTYtNGFmZi05ZmQ2LTc4ZGQ3MjkyZjEzNSJ9" target="_blank">Evolución de Emisiones de CO2 en América Latina y Bolivia</a></p>
+                                    </li>                                       
+                                </ul>
+                            </div>
+                        </div>
+                    </div>         
+
+                    <!--==================== PROJECTS 3 ====================-->
+                    <div class="projects__content">
+                        <div>
+                            <i class="uil uil-swatchbook projects__icon"></i>
+                            <h3 class="projects__title">Página Web<br>del IESE</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link projects__button">
+                            Ver Más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">Página Web del Instituto de Estudios Sociales y Económicos 2023-2024:</h4>
+                                <i class="uil uil-times projects__modal-close"></i>
+
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                        <p><a href="http://www.iese.umss.edu.bo/" target="_blank">Link de la Página Web</a></p>
+                                    </li>                                       
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== PROJECTS 4 ====================-->
+                    <div class="projects__content">
+                        <div>
+                            <i class="uil uil-swatchbook projects__icon"></i>
+                            <h3 class="projects__title">Revista<br>Búsqueda</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link projects__button">
+                            Ver Más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">Colaboración en algunos números como:</h4>
+                                <i class="uil uil-times projects__modal-close"></i>
+
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                        <p>Auxiliar de Investigación</p>
+                                    </li>
+                                        <li class="projects__modal-project-ind">
+                                            <i class="uil uil-check projects__modal-icon"></i>
+                                            <p>Diagramación y Arte de las Portadas de la Revista</p>
+                                        </li>
+                                        <li class="projects__modal-project-ind">
+                                            <i class="uil uil-check projects__modal-icon"></i>
+                                            <p>Edición de la Página de la <a href="https://revistas.umss.edu.bo/index.php/busqueda/index" target="_blank">Revista Búsqueda</a></p>
+                                        </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--==================== PROJECTS 5 ====================-->
+                    <div class="projects__content">
+                        <div>
+                            <i class="uil uil-swatchbook projects__icon"></i>
+                            <h3 class="projects__title">Página Web<br>SOCIESECO</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link projects__button">
+                            Ver Más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">Colaboración en la Página Web de la Sociedad Científica de Estudiantes de Economía</h4>
+                                <i class="uil uil-times projects__modal-close"></i>
+
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                        <p> <a href="https://gruposociesecoumss.wordpress.com/" target="_blank">Link de la Página</a></p>
+                                    </li>                                        
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                       
+
+                    <!--==================== PROJECTS 6 ====================-->
+                    <div class="projects__content">
+                        <div>
+                            <i class="uil uil-swatchbook projects__icon"></i>
+                            <h3 class="projects__title">Laboratorio de<br>Tecnologías<br>Sociales<br>en Ciudatos</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link projects__button">
+                            Ver Más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">Pasantía en el Laboratorio de Tecnologías Sociales </h4>
+                                <i class="uil uil-times projects__modal-close"></i>
+
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                        <p>Elaboración de Mapas Temáticos</p>
+                                    </li>
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                        <p>Actualización de Bases de Datos</p>
+                                    </li>                                    
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                        <p> <a href="https://ciudatos.netlify.app/" target="_blank">Link de Ciudatos</a></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!--==================== PROJECTS 7 ====================-->
+                    <div class="projects__content">
+                        <div>
+                            <i class="uil uil-swatchbook projects__icon"></i>
+                            <h3 class="projects__title">Próximamente</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link projects__button">
+                            Ver Más
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="projects__modal">
+                            <div class="projects__modal-content">
+                                <h4 class="projects__modal-title">Luego estaré subiendo diversos proyectos que se me quedarón por ahí, quiero enfocarme principalmente en:</h4>
+                                <i class="uil uil-times projects__modal-close"></i>
+
+                                <ul class="projects__modal-projects grid">
+                                    <li class="projects__modal-project">
+                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                        <p>Análisis de Datos enfocado al Marketing, Desarrollo o Finanzas</p>
+                                    </li>
+                                        <li class="projects__modal-project-ind">
+                                            <i class="uil uil-check projects__modal-icon"></i>
+                                            <p>Diseño Web</p>
+                                        </li>
+                                        <li class="projects__modal-project-ind">
+                                            <i class="uil uil-check projects__modal-icon"></i>
+                                            <p>Community Manager</p>
+                                        </li>
+                                        <li class="projects__modal-project-ind">
+                                            <i class="uil uil-check projects__modal-icon"></i>
+                                            <p>Clases de Informática</p>
+                                        </li>                                        
+                                </ul>
+                            </div>
+                        </div>
+                    </div>                 
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section" id="testimonials">
+                <h2 class="section__title">Referencias</h2>
+                <span class="section__subtitle"></span>
+
+                <div class="testimonial__container container swiper">
+                    <div class="swiper-wrapper">
+                         <!--==================== TESTIMONIAL 1 ====================-->
+                         <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/dsk.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Facultad de Ciencias Económicas</h3>
+                                        <span class="testimonial__client">Unidad de Tecnologías de Información</span>
+                                    </div>
+                                </div>
+                                <!-- <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div> -->
+                            </div>
+                            <p class="testimonial__description">Trabaje en los cursos de temporada de diversas gestiones y distintos programas de computación.<br>Contacto:<br> Teléfonos: (591-4) 4540257<br>E-mail: info@fce.umss.edu.bo</p>
+                         </div>
+                         
+                         <!--==================== TESTIMONIAL 2 ====================-->
+                         <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/ad.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Instituto de Estudios Sociales y Económicos</h3>
+                                        <span class="testimonial__client">Universidad Mayor de San Simón</span>
+                                    </div>
+                                </div>
+                                <!-- <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div> -->
+                            </div>
+                            <p class="testimonial__description">Mi tiempo como Auxiliar de Investigación se desarrollo aquí, con el apoyo a investigaciones como la creación de la página web del instituto.<br>Contacto:<br> Teléfonos: (591-4) 4540204<br>E-mail: iese@umss.edu</p>
+                         </div>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                </div>
+            </section>
+
+            <!--==================== VIDEOS ====================-->
+            <section class="videos section" id="videos">
+                <h2 class="section__title">Videos</h2>
+                <span class="section__subtitle">Aplicaciones de Software</span>
+
+                <div class="videos__container container grid">
+                    <div class="videos__content-top">
+                        <div class="iframe__container">
+                            <span class="videos__subtitle">Ejemplo del Sistema de Pagos Boliviano Analizado con Power BI</span>
+                            <iframe class="iframe" width="100%" height="100%" src="https://www.youtube.com/embed/KUL-Temq_wQ?si=2O7v4Mospk3awC5V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div> 
+                    <div class="videos__content-top">
+                        <div class="iframe__container">
+                            <span class="videos__subtitle">PowerPoint Y Que Cosas Podemos Hacer Este Programa</span>
+                            <iframe class="iframe" width="100%" height="100%" src="https://www.youtube.com/embed/P3XgS0HRqqM?si=y3nHbmSyP3iJjxn_" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>   
+                 </div>
+
+                 
+            </section>
+
+            <!--==================== PRESENTATION ====================-->
+            <section class="presentation section" id="presentation">
+                <h2 class="section__title">Presentaciones</h2>
+                <span class="section__subtitle">Cursos de Informática</span>
+
+                <div class="presentation__container container grid">
+                    <div class="presentation__content">
+                        <div class="iframe__container">
+                            <span class="presentation__subtitle">Taller de SPSS - 3/2022</span>
+                            <iframe allowfullscreen class="iframe" width="100%" height="100%"  src="https://www.youtube.com/embed/Jl8zPO_Qro4?si=4NG2U0dmVE3AH9a6"></iframe>
+                        </div>                        
+                        <div class="iframe__container">
+                            <span class="presentation__subtitle">Taller de Excel Avanzado 2/2022</span>
+                            <iframe allowfullscreen class="iframe" width="100%" height="100%"  src="https://www.youtube.com/embed/atyc1WF6Fyk?si=z4FRz9IM2c3VcrKQ"></iframe>
+                        </div>                                             
+                        <div class="iframe__container">
+                            <span class="presentation__subtitle">Taller de PowerPoint 2/2022</span>
+                            <iframe allowfullscreen class="iframe" width="100%" height="100%"  src="https://www.youtube.com/embed/BSXxLpbIH0g?si=NJ-MTQWiZPeGNGzz"></iframe>
+                        </div>                                             
+                    </div>   
+                 </div>
+            </section>
+
+            <!--==================== ONLINE MEETING ====================-->
+            <!-- <section class="meeting section" id="meeting">
+                <h2 class="section__title">Online Meeting</h2>
+                <span class="section__subtitle">Send a Request</span>
+
+                <div class="meeting__container container grid">
+                    <div class="meeting__content">
+                        <div class="zeeg__container">
+                            <iframe class="iframe-meeting" width="100%" height="100%" src="https://zeeg.me/erol/onlinemeeting"></iframe>
+                         </div>                        
+                    </div>   
+                 </div>
+            </section> -->
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact" data-id="contact">
+                <h2 class="section__title">Contáctame</h2>
+                <span class="section__subtitle">Ponerse en Contacto</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Teléfono</h3>
+                                <span class="contact__subtitle">+591 65769023</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <!-- <span class="contact__subtitle">a.miguel.alvarez.c@gmail.com</span> -->
+                                <p><a class="contact__subtitle" href="mailto:a.miguel.alvarez.c@gmail.com">a.miguel.alvarez.c@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Ubicación</h3>
+                                <span class="contact__subtitle">Cochabamba - Bolivia</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Nombre Completo</label>
+                                <input type="text" placeholder="Escriba su Nombre Completo" class="contact__input" id="fullName" onkeyup="validateName()">
+                                <span id="name-error" class="contact__subtitle"></span>
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" placeholder="Escriba su Dirección de Correo Electrónico" class="contact__input" id="email_id" onkeyup="validateEmail()">
+                                <span id="email-error" class="contact__subtitle"></span>
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Asunto</label>
+                            <input type="text" id="subject" placeholder="Ingrese el Asunto" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Mensaje</label>
+                            <textarea name="" cols="0" rows="7" placeholder="Escriba su Mensaje" class="contact__input" id="message" onkeyup="validateMessage()"></textarea>
+                            <span id="message-error" class="contact__subtitle"></span>
+                        </div>
+                        <div>
+                            <a onclick="return SendMail()" class="button button--flex">
+                            Enviar Mensaje
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <a href="#" class="footer__title">Angel Miguel Alvarez Calicho</a><br>
+                        <span class="footer__subtitle">Ingeniero Comerical</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#projects" class="footer__link">Projectos</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#testimonials" class="footer__link">Referencias</a>
+                        </li>
+                        <li>
+                            <a href="#videos" class="footer__link">Videos</a>
+                        </li>
+
+                        <li>
+                            <a href="#presentation" class="footer__link">Cursos</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/angel-miguel-alvarez-calicho/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://www.researchgate.net/profile/Angel-Alvarez-Calicho" target="_blank" class="footer__social">
+                            <i class="uil uil-book-open"></i>
+                        </a>
+
+                        <a href="https://github.com/thereisnodata" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; Derechos Reservados Angel Miguel Alvarez Calicho, 2024.<br>Plantilla modificada por mí, gracias a la colaboración de la plantilla original de <a href="https://github.com/nucerl" target="_blank">nucerl</a></p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
